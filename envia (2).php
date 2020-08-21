@@ -1,6 +1,6 @@
 <?php
 $remitente = $_POST['email'];
-$destinatario = 'lumediaweb@gmail.com'; // en esta línea va el mail del destinatario.
+$destinatario = 'destinatario@gmail.com'; // en esta línea va el mail del destinatario.
 $asunto = 'Mensaje desde el Sitio Web'; // Personaliza el mensaje que llega al destinatario
 if (!$_POST){
 ?>
